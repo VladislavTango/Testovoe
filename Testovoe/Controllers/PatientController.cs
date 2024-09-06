@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Testovoe.Application.Request.PatientRequest;
+using Testovoe.Application.Patient.PatientRequest;
 
 namespace Testovoe.Controllers
 {

@@ -4,9 +4,9 @@ using Testovoe.Models;
 
 namespace Testovoe.Infrastructure
 {
-    internal class DoctorConfiguration : IEntityTypeConfiguration<Doctor>
+    internal class DoctorConfiguration : IEntityTypeConfiguration<DoctorModel>
     {
-        public void Configure(EntityTypeBuilder<Doctor> builder)
+        public void Configure(EntityTypeBuilder<DoctorModel> builder)
         {
             builder.HasOne(x => x.DoctorsRoom)
                    .WithMany(x => x.Doctor)
